@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://127.0.0.1:27017/madhulogin",{}).then(()=>{
+mongoose.connect("mongodb+srv://dbone:dbone@cluster0.1vljvnr.mongodb.net/madhulogin",{}).then(()=>{
     console.log('mongodb connected');
 })
 
